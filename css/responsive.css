@@ -1,0 +1,539 @@
+@media (min-width: 768px) {
+    .mobile_logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #tsm-header .navbar-nav .nav-item {
+        margin-left: 1rem;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link {
+        font-size: 1.2rem;
+    }
+
+    #tsm-header .navbar-brand {
+        max-width: 11rem;
+    }
+
+    .tsm-hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .tsm-hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .avatar {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .tsm-theme-head .bg-text {
+        font-size: 10rem;
+    }
+
+    .tsm-theme-head h3 {
+        font-size: 2.7rem;
+    }
+
+    .tsm-about-content {
+        padding-left: 3rem;
+    }
+
+    .tsm-about-content h3 {
+        font-size: 2.3rem;
+        line-height: 3.4rem;
+        margin: 0 0 2rem;
+    }
+
+    .tsm-about-content p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #tsm-header .navbar-nav .nav-item {
+        margin-left: 1rem;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link {
+        font-size: 1.2rem;
+    }
+
+    #tsm-header .navbar-brand {
+        max-width: 11rem;
+    }
+
+    .tsm-hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .tsm-hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .avatar {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .tsm-theme-head .bg-text {
+        font-size: 8rem;
+    }
+
+    .tsm-theme-head h3 {
+        font-size: 2.7rem;
+        margin: 0 0 5rem;
+    }
+
+    .tsm-about-content {
+        padding-left: 0;
+    }
+
+    .tsm-about-content h3 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0 0 1rem;
+    }
+
+    .tsm-about-content p {
+        font-size: 1.3rem;
+        line-height: 2.6rem;
+    }
+
+    .tsm-secP {
+        padding: 9rem 0 7rem;
+    }
+
+    .theme-button {
+        font-size: 1.4rem;
+        padding: 1.5rem 3.2rem;
+        min-width: 14rem;
+        margin-top: 2rem;
+    }
+
+    .tsm-resume-card p {
+        font-size: 1.4rem;
+    }
+
+    .tsm-testimonial.tsm-secP {
+        padding-bottom: 6rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card {
+        padding: 3rem 3rem 6rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card p {
+        line-height: 2.4rem;
+        font-size: 1.4rem;
+        margin: 0 0 1.5rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card .tsm-testimonial-clienImg {
+        width: 5.7rem;
+        height: 5.7rem;
+    }
+
+    .tsm-testimonial.tsm-secP .swiper-button-next,
+    .tsm-testimonial.tsm-secP .swiper-button-prev {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tsm-conntact.tsm-secP {
+        padding-top: 10em;
+    }
+
+    .tsm-conntact.tsm-secP .tsm-contact-input input,
+    .tsm-conntact.tsm-secP .tsm-contact-input textarea {
+        height: 5rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .tsm-conntact.tsm-secP .tsm-contact-input textarea {
+        height: 8rem;
+    }
+
+    .footer-wrap {
+        padding: 4rem 0;
+    }
+
+    .footer-wrap .footer-content h4,
+    .footer-wrap .footer-content a {
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-wrap .footer-content ul li a {
+        font-size: 1.4rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #tsm-header .mobile_logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        background-color: #ffffff;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 0.1rem solid #f1f1f1;
+    }
+
+    #tsm-header .mobile_logo img {
+        max-width: 10rem;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link {
+        color: #000000;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+
+    .navbar-toggler {
+        outline: 0;
+        padding: 0;
+        width: 2.8rem;
+        height: 2.8rem;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .navbar-toggler span {
+        display: block;
+    }
+
+    .navbar-toggler .menu-wrapper {
+        position: absolute;
+        top: 0;
+        transform: translateY(-1.2rem);
+        left: 0;
+        height: 100%;
+    }
+
+    .navbar-toggler .hamburger-menu {
+        position: relative;
+        transform: translateY(2.5rem);
+        background: #000000;
+    }
+
+    .navbar-toggler .hamburger-menu:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0.9rem;
+        background: #000000;
+        transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .navbar-toggler .hamburger-menu:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.9rem;
+        background: #000000;
+        transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .navbar-toggler .hamburger-menu.animate {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .navbar-toggler .hamburger-menu.animate:before {
+        bottom: 0;
+        transform: rotate(-45deg);
+        transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .navbar-toggler .hamburger-menu.animate:after {
+        top: 0;
+        transform: rotate(45deg);
+        transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .hamburger-menu,
+    .hamburger-menu:after,
+    .hamburger-menu:before {
+        width: 2.8rem;
+        height: 0.2rem;
+    }
+
+    .collapse:not(.show) {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #fff;
+        width: 220px;
+        height: 100%;
+        padding-top: 6.4rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s;
+        display: block;
+    }
+
+    .collapse:not(.show).menu-show {
+        left: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #tsm-header {
+        padding: 1.2rem 0;
+        height: 6.4rem;
+        background-color: #ffffff;
+        border-bottom: 0.1rem solid #e1e1e1;
+    }
+
+    #tsm-header .blackLogo {
+        display: block;
+    }
+
+    #tsm-header .whiteLogo {
+        display: none;
+    }
+
+    #tsm-header.navbar-sticky-on {
+        box-shadow: unset;
+        -webkit-animation: unset;
+        animation: unset;
+    }
+
+    #tsm-header.navbar-sticky-on .blackLogo {
+        display: block;
+    }
+
+    #tsm-header .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link {
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 1rem;
+        border-bottom: 0.1rem solid #f1f1f1;
+    }
+
+    #tsm-header .navbar-nav .nav-item .nav-link:hover {
+        background-color: #000000;
+        color: #ffffff;
+        transform: unset;
+        -webkit-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        transform: unset;
+    }
+
+    #tsm-header .navbar-brand {
+        max-width: 10rem;
+    }
+
+    .tsm-hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .tsm-hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .avatar {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .tsm-theme-head .bg-text {
+        font-size: 4rem;
+    }
+
+    .tsm-theme-head h3 {
+        font-size: 2rem;
+        margin: 0 0 3rem;
+    }
+
+    .tsm-about-content {
+        padding-left: 0;
+    }
+
+    .tsm-about-content h3 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0 0 1rem;
+    }
+
+    .tsm-about-content p {
+        font-size: 1.3rem;
+        line-height: 2.6rem;
+    }
+
+    .tsm-secP {
+        padding: 7rem 0 5rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-inner {
+        margin: 0 -1.5rem;
+    }
+
+    .tsm-testimonial.tsm-secP .swiper-slide {
+        padding: 1rem 2rem 4rem;
+    }
+
+    .tsm-about-wall {
+        margin: 0 0 2rem;
+    }
+
+    .theme-button {
+        font-size: 1.4rem;
+        padding: 1.5rem 3.2rem;
+        min-width: 14rem;
+        margin-top: 2rem;
+    }
+
+    .tsm-resume-card p {
+        font-size: 1.4rem;
+    }
+
+    .tsm-testimonial.tsm-secP {
+        padding-bottom: 2rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card {
+        padding: 3rem 3rem 6rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card p {
+        line-height: 2.4rem;
+        font-size: 1.4rem;
+        margin: 0 0 1.5rem;
+    }
+
+    .tsm-testimonial.tsm-secP .tsm-testimonial-card .tsm-testimonial-clienImg {
+        width: 5.7rem;
+        height: 5.7rem;
+    }
+
+    .tsm-testimonial.tsm-secP .swiper-button-next,
+    .tsm-testimonial.tsm-secP .swiper-button-prev {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tsm-testimonial.tsm-secP .swiper-button-next,
+    .tsm-testimonial.tsm-secP .swiper-container-rtl .swiper-button-prev {
+        right: 0.6rem;
+    }
+
+    .tsm-testimonial.tsm-secP .swiper-button-prev,
+    .tsm-testimonial.tsm-secP .swiper-container-rtl .swiper-button-next {
+        left: 0.6rem;
+    }
+
+    .tsm-conntact.tsm-secP {
+        padding-top: 7em;
+    }
+
+    .tsm-conntact.tsm-secP .tsm-contact-input input,
+    .tsm-conntact.tsm-secP .tsm-contact-input textarea {
+        height: 5rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .tsm-conntact.tsm-secP .tsm-contact-input textarea {
+        height: 8rem;
+    }
+
+    .footer-wrap {
+        padding: 4rem 0 1.2rem;
+    }
+
+    .footer-wrap .footer-content {
+        text-align: center;
+        margin: 0 0 2rem;
+    }
+
+    .footer-wrap .footer-content h4,
+    .footer-wrap .footer-content a {
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-wrap .footer-content ul li a {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-right: 1.5rem;
+    }
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: 0;
+        left: auto;
+    }
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 0;
+        right: auto;
+    }
+
+    .tsm-portfolio-inner .tsm-portfolio-filters {
+        margin-top: 3rem;
+    }
+
+    .tsm-portfolio-inner .tsm-portfolio-filters ul {
+        margin: 0;
+    }
+
+    .tsm-portfolio-inner .tsm-portfolio-filters ul li {
+        padding: 0 1rem;
+    }
+
+    .tsm-portfolio-inner .tsm-portfolio-content {
+        margin-top: 3rem;
+    }
+
+    .tsm-conntact .tsm-contact-inner {
+        padding: 2.5rem;
+    }
+
+    .tsm-conntact .tsm-contact-inner p {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        margin: 0 0 2.5rem;
+        font-weight: 500;
+    }
+
+    .tsm-conntact .tsm-contact-inner .form-group {
+        margin: 0 0 1.5rem;
+    }
+}
